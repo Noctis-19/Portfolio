@@ -48,12 +48,12 @@ export default function Home() {
             des formations.
             Tout comme pour ma préparation au marathon en 2026, je cherche à avancer avec détermination.
             <br/>
-            Je m'intéresse particulièrement aux projets qui conjuguent technologie, éthique et engagement.
+            Je m’intéresse particulièrement aux projets qui conjuguent technologie, éthique et engagement.
             <br/>
             Mon objectif : Contribuer, à mon échelle, à un avenir plus harmonieux entre environnement, humanité et progrès.
             <br/>
             Ce portfolio présente les étapes de ce cheminement, entre apprentissages continus et expériences concrètes.
-            Il est en perpétuelle évolution, à l’image de ma volonté d’apprendre et d'élargir mes horizons.
+            Il est en perpétuelle évolution, à l’image de ma volonté d’apprendre et d’élargir mes horizons.
             <br/>
             Merci de votre attention, et au plaisir d’échanger.
           </p>
