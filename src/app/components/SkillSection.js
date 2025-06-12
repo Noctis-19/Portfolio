@@ -63,7 +63,9 @@ const SkillSection = () => {
                 >
                     {skills.map((skill, index) => {
                         return (
-                            <SkillModal name={skill.name} percentage={skill.percentage} />
+                            <div key={index}>
+                                <SkillModal name={skill.name} percentage={skill.percentage} />
+                            </div>
                         );
                     })}
                 </Carousel>

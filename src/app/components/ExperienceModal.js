@@ -32,9 +32,9 @@ export default function ExperienceModal({ experience, onClose, onNext, onPrev })
                             </h3>
                             <ul className="list-disc list-inside">
                                 {experience.techStack.map((tech, index) => (
-                                <li key={index} className="text-gray-300">
-                                    {tech}
-                                </li>
+                                    <li key={index} className="text-gray-300">
+                                        {tech}
+                                    </li>
                                 ))}
                             </ul>
                         </div>
