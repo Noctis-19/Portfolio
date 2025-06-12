@@ -11,7 +11,7 @@ const ExperienceSection = () => {
             title: "Ingénieur Full Stack : META-VIDEO",
             tags: ["Front-end", "Back-end", "BDD", "SQL", "PHP", "JS", "ChartJS", "Git", "HTML5", "CSS", "Anglais", "NodeJS"],
             description: "Réalisation de différents projets pour plusieurs clients.",
-            fullDescription: "Développement clé en main de projets pour différents clients avec maintient. Gestion des bases données. Automatisation des tableaux de bords statistiques réalisés pendant l’alternance pour les rendre personalisable par les clients. Aide au déploiement.",
+            fullDescription: "Développement clé en main de projets pour différents clients avec maintien. Gestion des bases données. Automatisation des tableaux de bords statistiques réalisés pendant l’alternance pour les rendre personalisable par les clients. Aide au déploiement.",
             image: "/chartJSDashboard.png",
             status: {color: "purple", text: "CDD"},
             techStack: ["SQL", "PHP", "JS", "ChartJS", "Git", "HTML5", "CSS", "Anglais", "NodeJS"],
