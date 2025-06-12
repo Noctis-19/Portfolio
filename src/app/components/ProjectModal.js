@@ -32,9 +32,9 @@ export default function ProjectModal({ project, onClose, onNext, onPrev }) {
                             </h3>
                             <ul className="list-disc list-inside">
                                 {project.techStack.map((tech, index) => (
-                                <li key={index} className="text-gray-300">
-                                    {tech}
-                                </li>
+                                    <li key={index} className="text-gray-300">
+                                        {tech}
+                                    </li>
                                 ))}
                             </ul>
                         </div>
