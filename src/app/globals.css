@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+} */
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+html {
+  overflow-y: scroll;
+}
+
+@theme {
+  --color-primary: var(--color-purple-600);
+}
+
+body {
+  @apply bg-gray-900 text-slate-50;
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  #sections {
+    background-image: url('/moon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+}
+
+.pattern-bg {
+  position: absolute;
+  top: -6rem;
+  left: -6rem;
+  width: calc(100% + 12rem);
+  right: -6rem;
+  bottom: -6rem;
+  z-index: -1;
+
+  opacity: 0.8;
+  background-image:  linear-gradient(30deg, #155dfc 12%, transparent 12.5%, transparent 87%, #155dfc 87.5%, #155dfc), linear-gradient(150deg, #155dfc 12%, transparent 12.5%, transparent 87%, #155dfc 87.5%, #155dfc), linear-gradient(30deg, #155dfc 12%, transparent 12.5%, transparent 87%, #155dfc 87.5%, #155dfc), linear-gradient(150deg, #155dfc 12%, transparent 12.5%, transparent 87%, #155dfc 87.5%, #155dfc), linear-gradient(60deg, #155dfc77 25%, transparent 25.5%, transparent 75%, #155dfc77 75%, #155dfc77), linear-gradient(60deg, #155dfc77 25%, transparent 25.5%, transparent 75%, #155dfc77 75%, #155dfc77);
+  background-size: 30px 53px;
+  background-position: 0 0, 0 0, 15px 26px, 15px 26px, 0 0, 15px 26px;
+
+  mask: radial-gradient(ellipse 75% 70% at center, rgb(15 23 42) 0%, transparent 70%);
+
+  @media (max-width: 768px) {
+    width: calc(100% + 4rem);
+    height: calc(100% + 4rem);
+    top: -3rem;
+    left: -3rem;
+    right: -3rem;
+    bottom: -3rem;
+  }  
+}
