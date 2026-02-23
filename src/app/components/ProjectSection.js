@@ -31,7 +31,7 @@ const ProjectSection = () => {
             title: "Site headless CMS pour un club sportif",
             tags: ["Front-end", "Headless CMS", "Strapi", "NodeJS", "NextJS", "React", "TailwindCSS"],
             description: "Site headless CMS pour un club d'athlétisme : https://athletisme-uscs.fr",
-            fullDescription: "Le site a pour but d'être utilisé et maintenu par quelqu'un qui ne maitrise pas l'informatique pour le choix du headless CMS avec Strapi qui est open-source.",
+            fullDescription: "Le site a pour but d'être utilisé et maintenu par quelqu'un qui ne maitrise pas l'informatique d'où le choix du headless CMS avec Strapi qui est open-source.",
             image: "/siteUSCS.png",
             status: {icon: Check, color: "green", text: "Terminé"},
             techStack: ["Strapi", "NodeJS", "NextJS", "React", "TailwindCSS"],
