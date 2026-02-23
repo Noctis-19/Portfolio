@@ -32,8 +32,8 @@ const ProjectSection = () => {
             tags: ["Front-end", "Headless CMS", "Strapi", "NodeJS", "NextJS", "React", "TailwindCSS"],
             description: "Site headless CMS en cours de développement pour un club d'athlétisme.",
             fullDescription: "Le site a pour but d'être utilisé et maintenu par quelqu'un qui ne maitrise pas l'informatique pour le choix du headless CMS avec Strapi qui est open-source.",
-            image: "/track-and-field.jpg",
-            status: {icon: Hourglass, color: "gray", text: "En cours"},
+            image: "/siteUSCS.png",
+            status: {icon: Check, color: "green", text: "Terminé"},
             techStack: ["Strapi", "NodeJS", "NextJS", "React", "TailwindCSS"],
         },
     ];
